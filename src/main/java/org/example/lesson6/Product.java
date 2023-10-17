@@ -58,4 +58,14 @@ public class Product {
     this.existence = newExistence;
   }
 
+  public static void main(String[] args) {
+    Product smarfon = new Product("Pixel", 15, 450.5, "Офігений  смарфон", true);
+    System.out.println(smarfon.brand);
+    System.out.println(smarfon.article);
+    System.out.println(smarfon.price);
+    System.out.println(smarfon.description);
+    System.out.println(smarfon.existence);
+
+  }
+
 }
