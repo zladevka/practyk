@@ -32,10 +32,6 @@ public class Triangle {
     return Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
   }
 
-  public static void main(String[] args) {
-    Triangle one = new Triangle(10, 10, 10);
-    System.out.println(one.calculatePerimeter());
-    System.out.println(one.calculateArea());
-  }
+
 
 }

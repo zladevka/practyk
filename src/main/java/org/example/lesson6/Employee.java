@@ -21,11 +21,7 @@ public class Employee {
     return "Прізвище: " + surname + "\nІмя: " + name + "\nПосада: " + position + "\nЗаробітня плата за годину: $" + salaryPayhour;
   }
 
-  public static void main(String[] args) {
-    Employee employee = new Employee("Lis", "Ivan", "Qa", 15);
-    System.out.println(employee.getInformation());
-    System.out.println(employee.calculateSalaryDay(10));
-  }
+
 
 
 }
