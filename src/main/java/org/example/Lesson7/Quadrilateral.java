@@ -38,6 +38,7 @@ class Parallelogram extends Quadrilateral {
     this.height = height;
   }
 
+
   public double getArea() {
     return base * height;
   }
