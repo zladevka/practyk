@@ -37,7 +37,7 @@ public class AutomationWeb {
     WebElement couchSection = browser.findElement(By.id("coachesSection"));
     List<WebElement> names = couchSection.findElements(By.className("coach-card_name"));
     for (WebElement name : names) {
-      System.out.println("Викладач :" + name.getText());
+      System.out.println("Викладач: " + name.getText());
     }
 
 
