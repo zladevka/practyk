@@ -1,9 +1,6 @@
 package org.example.Lesson11;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
@@ -13,6 +10,7 @@ public class AutomationWeb {
 
   public static void main(String[] args) throws InterruptedException {
     WebDriver browser = new ChromeDriver();
+
 
     browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -35,7 +33,6 @@ public class AutomationWeb {
 
     WebElement click = browser.findElement(By.cssSelector(".coaches_show"));
     click.click();
-    Thread.sleep(Long.parseLong("3000"));
 
     WebElement couchSection = browser.findElement(By.id("coachesSection"));
     List<WebElement> names = couchSection.findElements(By.className("coach-card_name"));
