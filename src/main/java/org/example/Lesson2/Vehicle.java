@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lesson2;
 
 // Базовий клас
 class Vehicle {
